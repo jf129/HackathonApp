@@ -5,6 +5,7 @@ import { SafeAreaView } from "react-native-safe-area-context";
 const Chat = () => {
   return (
     <SafeAreaView className="bg-primary h-full">
+      {/* Allow user to scroll chats */}
         <ScrollView>
         <Text className="text-secondary-100 justify-center text-center text-xl font-pextrabold">Chat</Text>
         </ScrollView>
