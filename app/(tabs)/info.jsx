@@ -6,7 +6,8 @@ const Info = () => {
   return (
     <SafeAreaView className="bg-primary h-full">
         <ScrollView>
-            <Text className="text-white">info</Text>
+            <Text className="text-white justify-center text-center text-xl font-pextrabold">Info</Text>
+
         </ScrollView>
     </SafeAreaView>
   )

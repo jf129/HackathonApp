@@ -6,7 +6,7 @@ const Chat = () => {
   return (
     <SafeAreaView className="bg-primary h-full">
         <ScrollView>
-            <Text>Chat</Text>
+        <Text className="text-white justify-center text-center text-xl font-pextrabold">Chat</Text>
         </ScrollView>
     </SafeAreaView>
   )
