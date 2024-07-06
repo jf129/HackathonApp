@@ -36,9 +36,9 @@ const Welcome = () => {
 
           <View className="relative mt-5">
             <Text className="text-3xl text-white font-bold text-center">
-              Discover Endless{"\n"}
-              Possibilities with{" "}
-              <Text className="text-secondary-200">Aora</Text>
+              Find Out More{"\n"}
+              With{" "}
+              <Text className="text-secondary-200">Offshore</Text>
             </Text>
 
             <Image
@@ -49,12 +49,11 @@ const Welcome = () => {
           </View>
 
           <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
-            Where Creativity Meets Innovation: Embark on a Journey of Limitless
-            Exploration with Aora
+            Where renewable energy soures meet biodiversity in your locality
           </Text>
 
           <CustomButton
-            title="Continue with Email"
+            title="Continue..."
             handlePress={() => router.push("/sign-in")}
             containerStyles="w-full mt-7"
           />

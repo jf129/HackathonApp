@@ -3,6 +3,8 @@ import { View, Text, TextInput, TouchableOpacity, Image } from "react-native";
 
 import { icons } from "../constants";
 
+// Form for auth system
+
 const FormField = ({
   title,
   value,
