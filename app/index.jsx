@@ -28,19 +28,23 @@ const Welcome = () => {
             resizeMode="contain"
           />
 
+          {/* Ocean related images */}
           <Image
             source={images.cards}
             className="max-w-[380px] w-full h-[298px]"
             resizeMode="contain"
           />
 
+          {/* Strap line */}
           <View className="relative mt-5">
             <Text className="text-3xl text-white font-bold text-center">
               Find Out More{"\n"}
               With{" "}
+              {/* Stylish text with underline */}
               <Text className="text-secondary-200">Offshore</Text>
             </Text>
 
+            {/* Underline */}
             <Image
               source={images.path}
               className="w-[136px] h-[15px] absolute -bottom-2 -right-8"
@@ -48,10 +52,12 @@ const Welcome = () => {
             />
           </View>
 
+          {/* More tagline */}
           <Text className="text-sm font-pregular text-gray-100 mt-7 text-center">
             Where renewable energy soures meet biodiversity in your locality
           </Text>
 
+          {/* Button to go to auth screens */}
           <CustomButton
             title="Continue..."
             handlePress={() => router.push("/sign-in")}
